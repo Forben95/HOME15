@@ -1,0 +1,12 @@
+
+    small + small {
+        display: none;
+    }
+
+    input:valid + small {
+        display: none;
+    }
+
+    input:valid + small + small {
+        display: block;
+    }
